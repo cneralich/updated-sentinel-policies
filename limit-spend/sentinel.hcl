@@ -7,5 +7,5 @@ policy "restrict-cost-and-percentage-increase" {
 }*/
 
 policy "limit-proposed-monthly-cost" {
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
